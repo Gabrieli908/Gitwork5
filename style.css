@@ -1,0 +1,97 @@
+
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #b0747433;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    background-color: #ffffff;  
+    color: rgb(70, 246, 217);  
+    padding: 20px;  
+    display: flex;
+justify-content: space-between;
+    text-align: center;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+.article {  
+    background-color: rgb(255, 255, 255);  
+    border-radius: 8px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 20px;  
+    padding: 20px;  
+}  
+
+.article h2 {  
+    color: #4a90e2;  
+    margin: 0;  
+
+}  
+
+.article h3 {  
+    color: #333;  
+}  
+
+.article p {  
+    color: #666;  
+}  
+
+.article img {  
+    max-width: 100%;  
+    border-radius: 5px;  
+    margin-top: 10px;  
+}  
+
+footer {  
+    background-color: #4a90e2;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+.social-media a {  
+    margin: 0 10px;  
+    color: white;  
+    text-decoration: none;  
+}  
+
+.auth-buttons {  
+    margin-top: 10px;  
+}  
+
+.auth-buttons button {  
+    margin: 5px;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.auth-buttons button:first-child {  
+    background-color: #5cb85c;  
+    color: white;  
+}  
+
+.auth-buttons button:last-child {  
+    background-color: #d9534f;  
+    color: white;  
+}
+.hcds {
+    color: rgb(69, 89, 203);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-decoration: none;
+}
+
+.btnt{
+    width: 30px;
+    height: 50x;
+}
+
